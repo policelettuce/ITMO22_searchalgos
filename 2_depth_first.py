@@ -1,6 +1,5 @@
 from collections import deque
 
-
 def depth_first_search(currNode, finishNode, graph, visited):
     queue = deque()
     queue += graph[currNode]
@@ -16,7 +15,6 @@ def depth_first_search(currNode, finishNode, graph, visited):
     for node in graph[currNode]:
         if node not in visited:
             depth_first_search(node, finishNode, graph, visited)
-
 
 
 graph = {

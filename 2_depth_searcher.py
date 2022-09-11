@@ -57,6 +57,6 @@ start = 'Рига'
 finish = 'Одесса'
 visited = []
 visited_depth = []
-d = 0
+d = -1
 
 depth_first_search(start, finish, graph, visited, visited_depth, d)
