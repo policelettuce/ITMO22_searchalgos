@@ -1,10 +1,5 @@
-from collections import deque
-
-
 def depth_limited_search(currNode, finishNode, graph, visited, depth, searchDepth):
     depth += 1
-    queue = deque()
-    queue += graph[currNode]
     if currNode == finishNode:
         visited.append(currNode)
         return True

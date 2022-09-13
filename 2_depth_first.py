@@ -1,8 +1,4 @@
-from collections import deque
-
 def depth_first_search(currNode, finishNode, graph, visited):
-    queue = deque()
-    queue += graph[currNode]
     if currNode == finishNode:
         print("Solution found!")
         visited.append(currNode)

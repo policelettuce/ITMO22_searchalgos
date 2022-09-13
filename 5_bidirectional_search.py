@@ -1,6 +1,3 @@
-from collections import deque
-
-
 def find_common_element(array1, array2):
     for i in array1:
         for j in array2:
@@ -10,8 +7,6 @@ def find_common_element(array1, array2):
 
 def depth_limited_search(currNode, finishNode, graph, visited, depth, searchDepth):
     depth += 1
-    queue = deque()
-    queue += graph[currNode]
     if currNode == finishNode:
         visited.append(currNode)
         return True
