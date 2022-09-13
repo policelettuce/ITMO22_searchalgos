@@ -14,7 +14,6 @@ def depth_limited_search(currNode, finishNode, graph, visited, depth, searchDept
             depth_limited_search(node, finishNode, graph, visited, depth, searchDepth)
 
 
-
 graph = {
     "Брест": ["Вильнюс", "Витебск", "Калининград"],
     "Вильнюс": ["Брест", "Калининград", "Каунас", "Киев", "Даугавпилс"],

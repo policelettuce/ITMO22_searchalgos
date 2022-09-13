@@ -18,7 +18,6 @@ def depth_first_search(currNode, finishNode, graph, visited, vd, depth):
             depth_first_search(node, finishNode, graph, visited, vd, depth)
 
 
-
 graph = {
     "Брест": ["Вильнюс", "Витебск", "Калининград"],
     "Вильнюс": ["Брест", "Калининград", "Каунас", "Киев", "Даугавпилс"],
